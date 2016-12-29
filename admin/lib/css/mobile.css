@@ -1,0 +1,20 @@
+/************ MOBILE ******************/
+#page {
+    min-width:200px;
+}
+#colGauche {
+    float:none;
+    width:100%;
+}
+
+#contenu {
+    width:100%;
+}
+
+#pdf{
+    color: yellow;
+    font-size: 70%;
+    margin-top: 450px;
+    position: absolute;
+}
+

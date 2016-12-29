@@ -1,0 +1,227 @@
+/*************** PC *****************/
+
+/*************** GENERAL  ...........*/
+.up {
+    vertical-align:top;
+}
+#all_all img{
+    width: 100%
+}
+#titre_page{
+    font-style: italic;
+    color: blueviolet;
+    background-color: darkgray;
+}
+#footerAc{
+    font-size: 120%;
+    color: orangered;
+    text-decoration: underline;
+    clear:both;
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+}
+/****************** UTILISATEUR *************/
+/****************** accueil ***************/
+#mot {
+    display:inline-block;
+    max-width:60%;    
+}
+#titreA{
+    color: blue;
+
+}
+.txtA {
+
+    text-align:center;
+    margin-left: 350px;
+
+}
+#avertisst{
+    color: lightcoral;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+#cacher{
+    font-weight: bold;
+}
+.txtSa{
+    font-weight:bold;
+    font-size: 150%;
+    color: black;
+    text-shadow: 5px 5px 5px rgb(48,44,44);
+}
+
+/****************** compte ***************/
+.txtCpte{
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 150%;
+}
+#formCpte{
+    text-align: center;
+    margin:auto;
+    background-color: window;    
+}
+/****************** catalogue ************/
+#tabCat { 
+    border-width:1px;
+    border-style:solid; 
+    border-color: rgb(255,128,0);
+    text-align: center;
+    background-color: #F2EFE9;
+}
+.tabC{
+    text-align: center;    
+    margin: auto;    
+}
+#submitcatalogue{
+    font-family: Times New Romans;
+    font-size: 125%;
+    background-color: rgb(254,46,176);
+    color: rgb(0,255,0);
+}
+#pdf{
+    color: #0099FF;
+    margin-top: 200px;
+    position: absolute;
+}
+/****************** recherche ************/
+#tabRech{
+    text-align: center;    
+    margin: auto;  
+    background-color: window;
+}
+.txtRech{
+    color: #d9534f;
+    background-color: white; 
+    font-size: 150%;
+}
+/****************** contact **************/
+.titreContact{
+    color: #EA5200;
+
+}
+.txtContact{
+    color: #0a0;
+
+    font-size: 150%;
+}
+#tabContact{
+    text-align: center;
+    margin: auto;
+    background-color: window;
+}
+/****************** Layout ***************/
+#page {
+    margin:0 auto;
+    width:90%; 
+    max-width:850px;
+    min-width:760px;
+}
+header {
+    margin:0 auto;
+    max-width:850px;
+}
+
+#colGauche {
+    float:left;
+    width:18%;
+    margin-top:2%;
+}
+
+#menu li {
+    list-style-image:none;
+    text-align:left;
+}
+
+#contenu {
+    float:left;
+    margin-top:5%;
+    margin-left:2%;
+    width:80%;
+}
+
+#main {
+    padding-left:1%;
+    padding-right:1%;
+    width:100%;
+    display:inline-block;	
+}
+header img {
+    width:200%;
+}
+/*-----------------------------------------------------------------------------------------------*/
+/****************** ADMIN ********************/
+/********** general *********************/
+.bDec{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+/********** authentification *************/
+.txtAuth{
+    color: brown;
+}
+#auth{
+    font-size: 125%;
+    text-transform: uppercase;
+    background-color: #28a4c9;
+}
+.bAth{
+    font-size: 150%;
+}
+#form_auth{
+    background-color: #28a4c9;
+}
+#login_form
+{
+    width : 50%;
+    height : 135px;
+    margin-left: 25%;
+    margin-top : 5%;
+    background-color: #28a4c9;
+}
+/********** accueil *****************/
+.txtAdminA{
+    color: red;
+    background-color: white;
+}
+.txtAdmin{
+    background-color: greenyellow;
+    color: cadetblue;
+    font-size: 115%;
+}
+/********** ajoutPiece **************/
+.tabPiece{
+    text-align: center;    
+    margin: auto;  
+    background-color: window;
+}
+.txtPiece{
+    color: springgreen;
+    background-color: white;
+    font-size: 150%;
+}
+.titrePiece{
+    font-style: italic;
+    color: blueviolet;
+    background-color: darkgray;
+}
+/*********** ajoutFab **************/
+.titreFab{
+    font-style: italic;
+    color: blueviolet;
+    background-color: darkgray;
+}
+.tabFab{
+    text-align: center;    
+    margin: auto;  
+    background-color: window;
+}
+.txtFab{
+    color: plum;
+    background-color: white;
+    font-size: 150%;
+}

@@ -1,0 +1,64 @@
+.nav {
+    padding: 0;
+    text-align:center;
+}
+.nav li {
+    display: inline;
+    list-style: none; /* nécessaire pour IE7 */ 
+}
+.nav a {
+    display:inline-block;
+    margin: 0 30px;
+}
+#ex2 .nav {
+    border: 1px solid deeppink;
+    background-color: aquamarine;
+    text-align: center;
+    height: 50px;
+    width : 60%;
+    margin: 0 auto;
+    text-align : center;
+    margin-top : 3%;
+    border-radius: 6px;
+}
+#ex2 .nav a {
+    height: 15px;
+    margin:0;
+    padding: 0 10px;
+    line-height: 15px;
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px -1px 0 yellow;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 1em;
+    color: darkmagenta;
+}
+#ex2 .nav :first-child a {
+    border-left: 0;
+}
+#ex2 .nav :last-child a {
+    border-right: 0;
+}
+#ex2 .nav a:hover,#ex2 .nav a:focus {
+    background-color: greenyellow;
+    text-shadow: -1px -1px 0 #000;
+}
+.ad {
+    position: fixed;
+    padding: 10px;
+    width: 120px; 
+    height: 100px;
+    bottom: 15px; 
+    right: 15px;
+}
+
+#all{
+    width:60%;
+    margin : 0 auto;
+}
+body,html{
+    width:100%;
+    height:100%;
+    background-color: lightsteelblue;
+   
+}
