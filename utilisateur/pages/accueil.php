@@ -29,6 +29,7 @@ if (count($texteAcc) == 0) {
 <p><span class="txtSa"> Nous ferons tout pour satisfaire votre demande. </span>
 </p>
 <?php
+
 ?>
 
 <section id="avertisst">    

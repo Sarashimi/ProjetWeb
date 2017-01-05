@@ -76,7 +76,10 @@ foreach (glob('../admin/lib/js/jquery/*.js') as $js) {
                     }
                     ?>
                 </div>
-            </section>            
+            </section>
+            <p id="face">
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.example.com/page.html&layout=box_count&show_faces=true&width=65&action=like&font=arial&colorscheme=light&height=65" 
+  scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:65px; height:65px; margin-top:3px;" allowTransparency="true"></iframe></p>
             <footer id="footerAc">
                 Copyright 2016  bryan.gerin@condorcet.be
             </footer>
